@@ -1,0 +1,21 @@
+body {
+  background-color: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.gallery-item {
+  max-width: 360px;
+}
+
+.gallery-image {
+  height: 200px;
+  object-fit: cover;
+}
